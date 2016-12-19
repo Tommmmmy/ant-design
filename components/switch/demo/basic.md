@@ -21,7 +21,7 @@ function onChange(checked) {
 }
 
 ReactDOM.render(
-  <Switch defaultChecked={false} onChange={onChange} />,
+  <Switch defaultChecked={true} onChange={onChange} />,
   mountNode
 );
 ````
